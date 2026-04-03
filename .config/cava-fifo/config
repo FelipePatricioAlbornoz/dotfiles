@@ -1,0 +1,13 @@
+[general]
+bars = 20
+framerate = 60
+
+[input]
+method = fifo
+source = /tmp/mpd.fifo
+
+[output]
+method = raw
+raw_target = /tmp/cava.fifo
+data_format = binary
+bits = 8
